@@ -1,0 +1,43 @@
+```
+# Build artifacts
+target/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+Cargo.lock
+vendor/
+
+# Qt specific
+*.pro.user
+*.qm
+*.qrc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
